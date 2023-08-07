@@ -9,7 +9,6 @@ from flask_pymongo import PyMongo
 import bcrypt
 
 
-
 app = Flask(__name__, template_folder='template')
 client = MongoClient("mongodb+srv://divijkharche01:LEATHERbat01@cluster0.g4wwula.mongodb.net/?retryWrites=true&w=majority")
 db = client.get_database('db')
